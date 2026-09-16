@@ -400,23 +400,25 @@ a{ color:inherit; text-decoration:none; }
 
 .book-face.spine{
   width:34px;
-  left:auto;
-  right:0;
-  transform:rotateY(90deg) translateZ(17px);
+  left:0;
+  transform:rotateY(-90deg) translateZ(17px);
   box-shadow:0 0 24px rgba(51,230,255,0.2);
 }
 
 .book-face.spine img{
   width:100%;
   height:100%;
-  object-fit:cover;
+  object-fit:contain;
   object-position:center;
   display:block;
+  background:#05070d;
 }
 
 .book-face.pages{
   width:34px;
-  transform:rotateY(-90deg) translateZ(17px);
+  left:auto;
+  right:0;
+  transform:rotateY(90deg) translateZ(17px);
   background:repeating-linear-gradient(
     180deg,
     #e4ecf6 0px,
