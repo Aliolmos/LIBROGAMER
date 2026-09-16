@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRO GAMER · El Manual Rebelde</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="fx-canvas"></canvas>
+
+<div class="scanlines"></div>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero-grid"></div>
+
+  <div class="hero-left">
+    <div class="tag-chip">EL MANUAL REBELDE</div>
+
+    <h1 class="hero-logo">
+      <span class="logo-pro">PRO</span><span class="logo-gamer">GAMER</span>
+    </h1>
+
+    <p class="hero-headline">Bienvenido al manual que juega en serio</p>
+
+    <p class="hero-sub">Salud, ergonomía y contrato.</p>
+
+    <p class="hero-desc">Una guía para comprender el mundo gamer desde el bienestar, el rendimiento y los derechos.</p>
+
+    <a href="#libro" class="btn-main">
+      <span>CONOCÉ EL MANUAL</span>
+    </a>
+  </div>
+
+  <div class="hero-right">
+    <div class="hero-glow"></div>
+    <img src="images/tapa.png" alt="Gamer concentrado frente a su setup, iluminado en azul" class="hero-figure">
+    <div class="hero-particles" id="hero-particles"></div>
+  </div>
+
+  <div class="scroll-cue">
+    <span>DESLIZÁ</span>
+    <div class="scroll-line"><i></i></div>
+  </div>
+</header>
+
+<!-- ============ LIBRO 3D ============ -->
+<section class="book-section" id="libro">
+  <div class="section-grid"></div>
+
+  <div class="book-stage">
+    <div class="book-shadow"></div>
+    <div class="book-3d">
+      <div class="book-face cover">
+        <img src="images/tapa.png" alt="Tapa del libro PRO GAMER">
+      </div>
+      <div class="book-face back">
+        <img src="images/contratapa.png" alt="Contratapa del libro PRO GAMER">
+      </div>
+      <div class="book-face spine"></div>
+      <div class="book-face spine-r"></div>
+      <div class="book-face top"></div>
+      <div class="book-face bottom"></div>
+    </div>
+  </div>
+
+  <div class="info-panel">
+    <p class="info-eyebrow">Dra. Silvana A. Monelli</p>
+    <h2 class="info-title">PRO GAMER<br><span>El Manual Rebelde</span></h2>
+    <p class="info-subtitle">Salud, ergonomía y contrato</p>
+
+    <p class="info-text">
+      Esta no es una guía cualquiera. Es el manual que rompe las reglas, combinando el rendimiento de élite con el bienestar a largo plazo. Descubrí las estrategias ocultas, las tácticas de salud y los secretos legales que los "pro" no quieren que sepas.
+    </p>
+
+    <ul class="feature-list">
+      <li>
+        <span class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 16 L9 9 L13 13 L20 4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="4" r="1.6" fill="currentColor"/></svg>
+        </span>
+        <span>Estrategias de juego avanzadas</span>
+      </li>
+      <li>
+        <span class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3 L20 6.5 V11 C20 16 16.5 19.7 12 21 C7.5 19.7 4 16 4 11 V6.5 Z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round"/></svg>
+        </span>
+        <span>Salud mental y física</span>
+      </li>
+      <li>
+        <span class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="9" rx="2" stroke="currentColor" stroke-width="1.8" fill="none"/><path d="M8 8 V6 a4 4 0 0 1 8 0 v2" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+        </span>
+        <span>Ergonomía y equipamiento</span>
+      </li>
+      <li>
+        <span class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M6 4 H18 V20 L12 17 L6 20 Z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round"/><path d="M9 9 H15 M9 12.5 H15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+        <span>Contratos y asesoramiento legal</span>
+      </li>
+    </ul>
+
+    <p class="editorial-mark">HAN·RA Editorial</p>
+  </div>
+</section>
+
+<!-- ============ CIERRE ============ -->
+<footer class="closing">
+  <div class="closing-line"></div>
+  <p class="closing-text">Más que jugar.<br><span>Comprender el mundo gamer.</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
